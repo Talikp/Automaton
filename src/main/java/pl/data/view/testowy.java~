@@ -1,0 +1,59 @@
+package pl.data.view;
+
+import java.awt.*;
+import javax.swing.*;
+import com.intellij.uiDesigner.core.*;
+import com.intellij.designer.*;
+
+/**
+ * Created by talik on 07.01.16.
+ */
+public class testowy {
+    public testowy() {
+        initComponents();
+    }
+
+    private void initComponents() {
+        // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
+        // Generated using JFormDesigner Evaluation license - unknown
+        root = new JPanel();
+        passwordField1 = new JPasswordField();
+        Spacer hSpacer1 = new Spacer();
+        Spacer vSpacer1 = new Spacer();
+
+        //======== root ========
+        {
+
+            // JFormDesigner evaluation mark
+            root.setBorder(new javax.swing.border.CompoundBorder(
+                new javax.swing.border.TitledBorder(new javax.swing.border.EmptyBorder(0, 0, 0, 0),
+                    "JFormDesigner Evaluation", javax.swing.border.TitledBorder.CENTER,
+                    javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Dialog", java.awt.Font.BOLD, 12),
+                    java.awt.Color.red), root.getBorder())); root.addPropertyChangeListener(new java.beans.PropertyChangeListener(){public void propertyChange(java.beans.PropertyChangeEvent e){if("border".equals(e.getPropertyName()))throw new RuntimeException();}});
+
+            root.setLayout(new GridLayoutManager(2, 2, new Insets(0, 0, 0, 0), -1, -1));
+            root.add(passwordField1, new GridConstraints(0, 0, 1, 1,
+                GridConstraints.ANCHOR_WEST, GridConstraints.FILL_HORIZONTAL,
+                GridConstraints.SIZEPOLICY_CAN_GROW | GridConstraints.SIZEPOLICY_WANT_GROW,
+                GridConstraints.SIZEPOLICY_FIXED,
+                null, null, null));
+            root.add(hSpacer1, new GridConstraints(0, 1, 1, 1,
+                GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL,
+                GridConstraints.SIZEPOLICY_CAN_GROW | GridConstraints.SIZEPOLICY_WANT_GROW,
+                GridConstraints.SIZEPOLICY_CAN_SHRINK,
+                null, null, null));
+            root.add(vSpacer1, new GridConstraints(1, 0, 1, 1,
+                GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_VERTICAL,
+                GridConstraints.SIZEPOLICY_CAN_SHRINK,
+                GridConstraints.SIZEPOLICY_CAN_GROW | GridConstraints.SIZEPOLICY_WANT_GROW,
+                null, null, null));
+        }
+        // JFormDesigner - End of component initialization  //GEN-END:initComponents
+    }
+
+    // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
+    // Generated using JFormDesigner Evaluation license - unknown
+    private JPanel root;
+    private JPasswordField passwordField1;
+    // JFormDesigner - End of variables declaration  //GEN-END:variables
+}

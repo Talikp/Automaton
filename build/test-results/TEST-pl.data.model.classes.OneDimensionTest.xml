@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.data.model.classes.OneDimensionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-04T18:22:02" hostname="Talik" time="0.011">
+  <properties/>
+  <testcase name="newStateTest" classname="pl.data.model.classes.OneDimensionTest" time="0.006"/>
+  <testcase name="nextStateTest" classname="pl.data.model.classes.OneDimensionTest" time="0.003"/>
+  <testcase name="getIDNumberTest" classname="pl.data.model.classes.OneDimensionTest" time="0.001"/>
+  <testcase name="makeRuleTest" classname="pl.data.model.classes.OneDimensionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

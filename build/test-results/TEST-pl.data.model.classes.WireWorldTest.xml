@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.data.model.classes.WireWorldTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-04T18:22:02" hostname="Talik" time="0.018">
+  <properties/>
+  <testcase name="newStateWireTest" classname="pl.data.model.classes.WireWorldTest" time="0.008"/>
+  <testcase name="nextStateTest" classname="pl.data.model.classes.WireWorldTest" time="0.006"/>
+  <testcase name="newStateTailToWireTest" classname="pl.data.model.classes.WireWorldTest" time="0.0"/>
+  <testcase name="newStateHeadToTailTest" classname="pl.data.model.classes.WireWorldTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
