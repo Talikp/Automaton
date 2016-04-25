@@ -1,1 +1,3 @@
 # Automaton
+
+Generator automatów komórkowych
